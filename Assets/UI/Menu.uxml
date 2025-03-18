@@ -1,0 +1,17 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Menu.uss?fileID=7433441132597879392&amp;guid=f1d8cd69997a8f342b9b6ecb0386f1ad&amp;type=3#Menu" />
+    <engine:VisualElement name="Contenedor" class="menu" style="flex-grow: 1; width: auto; height: auto; justify-content: flex-start; align-self: auto;">
+        <engine:VisualElement name="ContenedorTitulo" class="contenedortitulo" style="flex-grow: 1; justify-content: center; align-items: center; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 10px; height: auto; max-height: 50px; width: 70%; -unity-font-style: bold;">
+            <engine:Label text="Tarea Unity&#10;" name="Titulo" class="titulo" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Opciones" class="opciones" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.53); justify-content: center; align-items: center; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; min-width: 60%; margin-top: 10px;">
+            <engine:Button text="Jugar&#10;" name="Jugar" class="boton" />
+            <engine:Button text="Ayuda&#10;" name="Ayuda" class="boton" />
+            <engine:Button text="Creditos&#10;" name="Creditos" class="boton" style="margin-left: 5px; background-size: 100% 100%;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Footer" class="footer" style="flex-grow: 1;">
+            <engine:Button text="X" name="Cerrar" class="botoncierre" style="align-self: auto; flex-direction: column; align-items: flex-start; justify-content: flex-start; position: relative; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; font-size: 25px;" />
+            <engine:Label text="Juan Alfonso Vega Sol (A01751854)" name="Creador" class="autor" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
