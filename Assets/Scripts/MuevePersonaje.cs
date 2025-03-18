@@ -1,5 +1,9 @@
 using UnityEngine;
 
+/**
+Modifica la posición del objeto en el eje X y Y. Dedicado al movimiento de un personaje.
+Autor: Juan Alfonso Vega Sol
+*/
 public class NewMonoBehaviourScript : MonoBehaviour
 {
 
