@@ -547,6 +547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 349903645}
   - component: {fileID: 349903644}
+  - component: {fileID: 349903646}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -588,6 +589,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &349903646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349903643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d2a87e37fd08f4e85606aa9dbc3060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &410235818
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,6 +961,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1097013872152664322, guid: feea1663b65f1b449aa5c9bee7b02abc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1717383352515045504, guid: feea1663b65f1b449aa5c9bee7b02abc, type: 3}
       propertyPath: m_BodyType
       value: 2
@@ -996,7 +1013,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1097013872152664322, guid: feea1663b65f1b449aa5c9bee7b02abc, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

@@ -1,5 +1,7 @@
 .header {
     background-color: rgb(116, 116, 116);
+    min-width: 100%;
+    min-height: 30%;
 }
 
 .contenido {
@@ -8,6 +10,7 @@
     align-self: center;
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
 .textocontenido {
@@ -16,8 +19,14 @@
     justify-content: flex-start;
     flex-direction: column;
     color: rgb(255, 215, 0);
-    font-size: 14px;
+    font-size: 15px;
     -unity-text-align: upper-center;
+    position: absolute;
+    top: 10%;
+    transition-property: all, font-size;
+    transition-duration: 0s, 10s;
+    transition-timing-function: ease, ease-in-cubic;
+    transition-delay: 0s, 0s;
 }
 
 .botonregreso {
