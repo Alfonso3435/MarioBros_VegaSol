@@ -1,0 +1,38 @@
+.header {
+    background-color: rgb(116, 116, 116);
+}
+
+.contenido {
+    background-color: rgb(94, 94, 94);
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+.textocontenido {
+    align-self: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: rgb(255, 215, 0);
+    font-size: 14px;
+    -unity-text-align: upper-center;
+}
+
+.botonregreso {
+    align-self: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: auto;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 215, 0);
+    font-size: 20px;
+}
+
+.titulo {
+    align-self: center;
+    font-size: 30px;
+    margin-top: 7%;
+    color: rgb(223, 188, 0);
+}

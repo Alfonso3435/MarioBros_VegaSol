@@ -67,6 +67,7 @@
     border-bottom-left-radius: 10px;
     max-height: none;
     width: 60%;
+    min-height: 14%;
 }
 
 .footer {
@@ -82,5 +83,30 @@
 }
 
 .boton:hover {
+    scale: 1.15 1.15;
+}
+
+.botonregreso {
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-self: flex-end;
+    color: rgb(223, 153, 0);
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ayuda {
+    position: relative;
+    top: auto;
+}
+
+.textoayuda {
+    -unity-text-align: upper-center;
+}
+
+.tituloayuda {
+}
+
+.botonregreso:hover {
     scale: 1.15 1.15;
 }

@@ -4,10 +4,15 @@
         <engine:VisualElement name="ContenedorTitulo" class="contenedortitulo" style="flex-grow: 1; justify-content: center; align-items: center; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 10px; height: auto; max-height: 50px; width: 70%; -unity-font-style: bold;">
             <engine:Label text="Tarea Unity&#10;" name="Titulo" class="titulo" />
         </engine:VisualElement>
-        <engine:VisualElement name="Opciones" class="opciones" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.53); justify-content: center; align-items: center; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; min-width: 60%; margin-top: 10px;">
+        <engine:VisualElement name="Opciones" enabled="true" class="opciones" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.53); justify-content: center; align-items: center; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; min-width: 60%; margin-top: 10px; min-height: 65%;">
             <engine:Button text="Jugar&#10;" name="Jugar" class="boton" />
             <engine:Button text="Ayuda&#10;" name="Ayuda" class="boton" />
             <engine:Button text="Creditos&#10;" name="Creditos" class="boton" style="margin-left: 5px; background-size: 100% 100%;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="ContenedorAyuda" class="ayuda" style="flex-grow: 1; min-width: 60%; min-height: 65%; top: 20%; background-color: rgba(0, 0, 0, 0.53); justify-content: flex-start; align-items: center;">
+            <engine:Button text="X" name="Regreso" class="botonregreso" style="align-items: auto; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-bottom: 0; padding-bottom: 3px;" />
+            <engine:Label text="What is Lorem Ipsum?" name="TituloAyuda" class="tituloayuda" />
+            <engine:Label text="Lorem Ipsum is simply dummy text of the&#10;printing and typesetting industry. Lorem Ipsum &#10;has been the industry&apos;s standard dummy text&#10;ever since the 1500s, when an unknown printer&#10;took a galley of type and scrambled it to make a&#10;type specimen book. It has survived not only&#10;five centuries, but also the leap into electronic&#10;typesetting, remaining essentially unchanged. It&#10;was popularised in the 1960s with the release of the &#10;Letraset sheets containing Lorem Ipsum &#10;passages..." name="ContenidoAyuda" class="textoayuda" />
         </engine:VisualElement>
         <engine:VisualElement name="Footer" class="footer" style="flex-grow: 1;">
             <engine:Button text="X" name="Cerrar" class="botoncierre" style="align-self: auto; flex-direction: column; align-items: flex-start; justify-content: flex-start; position: relative; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; font-size: 25px;" />
