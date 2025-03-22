@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 
 /*
-Lógia de botones y controles del menú principal. Incluye la navegación a las diferentes secciones del menú.
+Lógica de botones y controles del menú principal. Incluye la navegación a las diferentes secciones del menú.
 Autor: Juan Alfonso Vega Sol
 */
 public class MenuController : MonoBehaviour
@@ -33,14 +33,14 @@ public class MenuController : MonoBehaviour
         contenedorAyuda.style.display = DisplayStyle.None;
 
         // Callbacks
-        botonJugar.RegisterCallback<ClickEvent>(evt => IniciarJuego("Juego"));
-        botonCreditos.RegisterCallback<ClickEvent>(evt => IniciarJuego("Creditos"));
+        botonJugar.RegisterCallback<ClickEvent>(evt => CambiarEscena("Juego"));
+        botonCreditos.RegisterCallback<ClickEvent>(evt => CambiarEscena("Creditos"));
         botonAyuda.RegisterCallback<ClickEvent>(MostrarAyuda);
         botonVolver.RegisterCallback<ClickEvent>(VolverAlMenu);
         botonCerrar.RegisterCallback<ClickEvent>(CerrarJuego);
     }
 
-    private void IniciarJuego(string escena)
+    private void CambiarEscena(string escena)
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(escena);
     }

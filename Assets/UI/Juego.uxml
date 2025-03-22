@@ -1,6 +1,6 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/Juego.uss?fileID=7433441132597879392&amp;guid=44b179d28418c2f4d88cbfc53c93ac22&amp;type=3#Juego" />
     <engine:VisualElement name="Contenedor" class="contenedor" style="flex-grow: 1;">
-        <engine:Button text="Regresar" name="Regreso" class="boton" />
+        <engine:Button text="Regresar" name="Regreso" class="boton" style="background-image: url(&quot;project://database/Assets/Buttons/PNG/22Button_Midl_Green.png?fileID=2800000&amp;guid=bf625ae84f769384fb0cd1cc52d14971&amp;type=3#22Button_Midl_Green&quot;); background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
     </engine:VisualElement>
 </engine:UXML>
